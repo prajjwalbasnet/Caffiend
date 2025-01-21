@@ -16,7 +16,10 @@ export default function Layout(props) {
 
     const footer = (
         <footer>
-            <p></p>
+            <p><span className="text-gradient">Caffiend</span> was made by <a href="#">
+                Prajjwal</a><br />using the <a href="#">FantaCSS</a> design library <br/>
+                Check out the project on <a href="https://github.com/prajjwalbasnet/Caffiend" 
+                target="_blank">Github</a></p>
         </footer>
     )
     return(
